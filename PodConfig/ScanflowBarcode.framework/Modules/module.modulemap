@@ -1,0 +1,11 @@
+framework module ScanflowBarcode {
+  umbrella header "ScanflowBarcode.h"
+  export *
+
+  module * { export * }
+}
+
+module ScanflowBarcode.Swift {
+  header "ScanflowBarcode-Swift.h"
+  requires objc
+}

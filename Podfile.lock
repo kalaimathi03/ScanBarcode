@@ -1,0 +1,21 @@
+PODS:
+  - ScanflowCore (1.0.9)
+
+DEPENDENCIES:
+  - ScanflowCore (from `https://github.com/Anbumanim2023/scanflowsource.git`)
+
+EXTERNAL SOURCES:
+  ScanflowCore:
+    :git: https://github.com/Anbumanim2023/scanflowsource.git
+
+CHECKOUT OPTIONS:
+  ScanflowCore:
+    :commit: 45ea00d29a1ecb2036a57fcd5383e87ae9f84403
+    :git: https://github.com/Anbumanim2023/scanflowsource.git
+
+SPEC CHECKSUMS:
+  ScanflowCore: e5a853dc227f8cde2ca90aa7df2e55362ed5e43e
+
+PODFILE CHECKSUM: ecb82b1093b5aad22afe5a211206641247fb1d4f
+
+COCOAPODS: 1.14.3

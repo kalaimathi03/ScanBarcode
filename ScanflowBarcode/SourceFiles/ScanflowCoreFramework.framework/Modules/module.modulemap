@@ -1,0 +1,11 @@
+framework module ScanflowCoreFramework {
+  umbrella header "ScanflowCoreFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module ScanflowCoreFramework.Swift {
+    header "ScanflowCoreFramework-Swift.h"
+    requires objc
+}
