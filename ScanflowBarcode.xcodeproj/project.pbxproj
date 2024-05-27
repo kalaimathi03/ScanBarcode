@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A838AD95BF8AB2687B5BCFA /* Pods_ScanflowBarcode_ScanflowBarcodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D9FF518DDCD6342517C9E /* Pods_ScanflowBarcode_ScanflowBarcodeTests.framework */; };
-		57CFF33F8AC18A7269E77308 /* Pods_ScanflowBarcode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E3A3277573F3B41BF6E1F9 /* Pods_ScanflowBarcode.framework */; };
+		1DBC58BBC42D502D91ADDDC2 /* Pods_ScanflowBarcode_ScanflowBarcodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15B472FBFF628EE1BEAF776 /* Pods_ScanflowBarcode_ScanflowBarcodeTests.framework */; };
 		680879E92A2891DB0007EE4C /* barcodeModel9.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879DD2A2891D80007EE4C /* barcodeModel9.tflite */; };
 		680879EA2A2891DB0007EE4C /* barcodeModel4.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879DE2A2891D90007EE4C /* barcodeModel4.tflite */; };
 		680879EB2A2891DB0007EE4C /* barcodeModel10.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879DF2A2891D90007EE4C /* barcodeModel10.tflite */; };
@@ -514,6 +513,7 @@
 		68BE784B28D16F9B008D314A /* Sensifai_SuperResolution_TFLite.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 68BE783528D16F9B008D314A /* Sensifai_SuperResolution_TFLite.tflite */; };
 		68BE784E28D16F9B008D314A /* labelmap.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68BE783828D16F9B008D314A /* labelmap.txt */; };
 		68C7EA042A81177D00E75A17 /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C7EA032A81177D00E75A17 /* assets.xcassets */; };
+		88FE53B92C04651A00545961 /* ScanflowCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FE53B82C04651A00545961 /* ScanflowCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -527,7 +527,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23E3A3277573F3B41BF6E1F9 /* Pods_ScanflowBarcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanflowBarcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		680879DD2A2891D80007EE4C /* barcodeModel9.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = barcodeModel9.tflite; sourceTree = "<group>"; };
 		680879DE2A2891D90007EE4C /* barcodeModel4.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = barcodeModel4.tflite; sourceTree = "<group>"; };
 		680879DF2A2891D90007EE4C /* barcodeModel10.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = barcodeModel10.tflite; sourceTree = "<group>"; };
@@ -1034,11 +1033,13 @@
 		68BE783528D16F9B008D314A /* Sensifai_SuperResolution_TFLite.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sensifai_SuperResolution_TFLite.tflite; sourceTree = "<group>"; };
 		68BE783828D16F9B008D314A /* labelmap.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labelmap.txt; sourceTree = "<group>"; };
 		68C7EA032A81177D00E75A17 /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
-		7B5D9FF518DDCD6342517C9E /* Pods_ScanflowBarcode_ScanflowBarcodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanflowBarcode_ScanflowBarcodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D89605F16FAB7A085D149FB /* Pods-ScanflowBarcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanflowBarcode.release.xcconfig"; path = "Target Support Files/Pods-ScanflowBarcode/Pods-ScanflowBarcode.release.xcconfig"; sourceTree = "<group>"; };
-		803798834A2EBAD3816FE549 /* Pods-ScanflowBarcode-ScanflowBarcodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanflowBarcode-ScanflowBarcodeTests.debug.xcconfig"; path = "Target Support Files/Pods-ScanflowBarcode-ScanflowBarcodeTests/Pods-ScanflowBarcode-ScanflowBarcodeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		88F711043E7FD51A14E5FF8C /* Pods-ScanflowBarcode-ScanflowBarcodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanflowBarcode-ScanflowBarcodeTests.release.xcconfig"; path = "Target Support Files/Pods-ScanflowBarcode-ScanflowBarcodeTests/Pods-ScanflowBarcode-ScanflowBarcodeTests.release.xcconfig"; sourceTree = "<group>"; };
-		A7F15D5617EFB78679E460D9 /* Pods-ScanflowBarcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanflowBarcode.debug.xcconfig"; path = "Target Support Files/Pods-ScanflowBarcode/Pods-ScanflowBarcode.debug.xcconfig"; sourceTree = "<group>"; };
+		6953A6224BD1AD456C528B9D /* Pods-ScanflowBarcode-ScanflowBarcodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanflowBarcode-ScanflowBarcodeTests.debug.xcconfig"; path = "Target Support Files/Pods-ScanflowBarcode-ScanflowBarcodeTests/Pods-ScanflowBarcode-ScanflowBarcodeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81B5E45A27FBCE4ED865D5B7 /* Pods-ScanflowBarcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanflowBarcode.debug.xcconfig"; path = "Target Support Files/Pods-ScanflowBarcode/Pods-ScanflowBarcode.debug.xcconfig"; sourceTree = "<group>"; };
+		88FE53B82C04651A00545961 /* ScanflowCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanflowCore.framework; sourceTree = "<group>"; };
+		DD418C4F4B9EFC77369C4AEC /* Pods-ScanflowBarcode-ScanflowBarcodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanflowBarcode-ScanflowBarcodeTests.release.xcconfig"; path = "Target Support Files/Pods-ScanflowBarcode-ScanflowBarcodeTests/Pods-ScanflowBarcode-ScanflowBarcodeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F15B472FBFF628EE1BEAF776 /* Pods_ScanflowBarcode_ScanflowBarcodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanflowBarcode_ScanflowBarcodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F727372BD112BDDCBF651F75 /* Pods_ScanflowBarcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanflowBarcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78DBEF2BC62D834A382EEC3 /* Pods-ScanflowBarcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanflowBarcode.release.xcconfig"; path = "Target Support Files/Pods-ScanflowBarcode/Pods-ScanflowBarcode.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1046,8 +1047,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88FE53B92C04651A00545961 /* ScanflowCore.framework in Frameworks */,
 				686C2F5228DC5F80005C3EF7 /* TensorFlowLiteC.framework in Frameworks */,
-				57CFF33F8AC18A7269E77308 /* Pods_ScanflowBarcode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1056,7 +1057,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				683CD65E28CF4F1D008FE55B /* ScanflowBarcode.framework in Frameworks */,
-				3A838AD95BF8AB2687B5BCFA /* Pods_ScanflowBarcode_ScanflowBarcodeTests.framework in Frameworks */,
+				1DBC58BBC42D502D91ADDDC2 /* Pods_ScanflowBarcode_ScanflowBarcodeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,7 +1113,7 @@
 				683CD66128CF4F1D008FE55B /* ScanflowBarcodeTests */,
 				683CD65428CF4F1D008FE55B /* Products */,
 				FFE6323D538BCDD4E63F3198 /* Pods */,
-				8E7E8A1A46CDE0530422DBF5 /* Frameworks */,
+				B78FACB00C14B153815F9BE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1969,11 +1970,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		8E7E8A1A46CDE0530422DBF5 /* Frameworks */ = {
+		B78FACB00C14B153815F9BE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				23E3A3277573F3B41BF6E1F9 /* Pods_ScanflowBarcode.framework */,
-				7B5D9FF518DDCD6342517C9E /* Pods_ScanflowBarcode_ScanflowBarcodeTests.framework */,
+				88FE53B82C04651A00545961 /* ScanflowCore.framework */,
+				F727372BD112BDDCBF651F75 /* Pods_ScanflowBarcode.framework */,
+				F15B472FBFF628EE1BEAF776 /* Pods_ScanflowBarcode_ScanflowBarcodeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1981,10 +1983,10 @@
 		FFE6323D538BCDD4E63F3198 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A7F15D5617EFB78679E460D9 /* Pods-ScanflowBarcode.debug.xcconfig */,
-				7D89605F16FAB7A085D149FB /* Pods-ScanflowBarcode.release.xcconfig */,
-				803798834A2EBAD3816FE549 /* Pods-ScanflowBarcode-ScanflowBarcodeTests.debug.xcconfig */,
-				88F711043E7FD51A14E5FF8C /* Pods-ScanflowBarcode-ScanflowBarcodeTests.release.xcconfig */,
+				81B5E45A27FBCE4ED865D5B7 /* Pods-ScanflowBarcode.debug.xcconfig */,
+				F78DBEF2BC62D834A382EEC3 /* Pods-ScanflowBarcode.release.xcconfig */,
+				6953A6224BD1AD456C528B9D /* Pods-ScanflowBarcode-ScanflowBarcodeTests.debug.xcconfig */,
+				DD418C4F4B9EFC77369C4AEC /* Pods-ScanflowBarcode-ScanflowBarcodeTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -2250,7 +2252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 683CD66728CF4F1D008FE55B /* Build configuration list for PBXNativeTarget "ScanflowBarcode" */;
 			buildPhases = (
-				F925DC30DEE486C4D5936DB1 /* [CP] Check Pods Manifest.lock */,
+				6D1CA553378B0B13AB198163 /* [CP] Check Pods Manifest.lock */,
 				683CD64E28CF4F1D008FE55B /* Headers */,
 				683CD64F28CF4F1D008FE55B /* Sources */,
 				683CD65028CF4F1D008FE55B /* Frameworks */,
@@ -2269,11 +2271,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 683CD66A28CF4F1D008FE55B /* Build configuration list for PBXNativeTarget "ScanflowBarcodeTests" */;
 			buildPhases = (
-				BE88953ED7C2F090BCC22A2B /* [CP] Check Pods Manifest.lock */,
+				44DC9EE12789B93684B550FF /* [CP] Check Pods Manifest.lock */,
 				683CD65928CF4F1D008FE55B /* Sources */,
 				683CD65A28CF4F1D008FE55B /* Frameworks */,
 				683CD65B28CF4F1D008FE55B /* Resources */,
-				4D725C6199E4887A939A12A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2357,24 +2358,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4D725C6199E4887A939A12A2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ScanflowBarcode-ScanflowBarcodeTests/Pods-ScanflowBarcode-ScanflowBarcodeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ScanflowBarcode-ScanflowBarcodeTests/Pods-ScanflowBarcode-ScanflowBarcodeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScanflowBarcode-ScanflowBarcodeTests/Pods-ScanflowBarcode-ScanflowBarcodeTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BE88953ED7C2F090BCC22A2B /* [CP] Check Pods Manifest.lock */ = {
+		44DC9EE12789B93684B550FF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2396,7 +2380,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F925DC30DEE486C4D5936DB1 /* [CP] Check Pods Manifest.lock */ = {
+		6D1CA553378B0B13AB198163 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2813,7 +2797,7 @@
 		};
 		683CD66828CF4F1D008FE55B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7F15D5617EFB78679E460D9 /* Pods-ScanflowBarcode.debug.xcconfig */;
+			baseConfigurationReference = 81B5E45A27FBCE4ED865D5B7 /* Pods-ScanflowBarcode.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -2830,6 +2814,7 @@
 					"$(PROJECT_DIR)/ScanflowBarcode/SourceFiles/Tensorflow/Framework",
 					"$(PROJECT_DIR)/ScanflowBarcode/SourceFiles",
 					"$(PROJECT_DIR)/ScanflowBarcode/Public/Constant",
+					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -2861,7 +2846,7 @@
 		};
 		683CD66928CF4F1D008FE55B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D89605F16FAB7A085D149FB /* Pods-ScanflowBarcode.release.xcconfig */;
+			baseConfigurationReference = F78DBEF2BC62D834A382EEC3 /* Pods-ScanflowBarcode.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -2878,6 +2863,7 @@
 					"$(PROJECT_DIR)/ScanflowBarcode/SourceFiles/Tensorflow/Framework",
 					"$(PROJECT_DIR)/ScanflowBarcode/SourceFiles",
 					"$(PROJECT_DIR)/ScanflowBarcode/Public/Constant",
+					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -2908,7 +2894,7 @@
 		};
 		683CD66B28CF4F1D008FE55B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 803798834A2EBAD3816FE549 /* Pods-ScanflowBarcode-ScanflowBarcodeTests.debug.xcconfig */;
+			baseConfigurationReference = 6953A6224BD1AD456C528B9D /* Pods-ScanflowBarcode-ScanflowBarcodeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -2926,7 +2912,7 @@
 		};
 		683CD66C28CF4F1D008FE55B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88F711043E7FD51A14E5FF8C /* Pods-ScanflowBarcode-ScanflowBarcodeTests.release.xcconfig */;
+			baseConfigurationReference = DD418C4F4B9EFC77369C4AEC /* Pods-ScanflowBarcode-ScanflowBarcodeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

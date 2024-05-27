@@ -6,7 +6,7 @@ target 'ScanflowBarcode' do
   use_frameworks!
 
   # Pods for ScanflowBarcode
-  pod 'ScanflowCore',:git => 'https://github.com/Anbumanim2023/scanflowsource.git'
+  #pod 'ScanflowCore',:git => 'https://github.com/Anbumanim2023/scanflowsource.git'
 
   target 'ScanflowBarcodeTests' do
     # Pods for testing
