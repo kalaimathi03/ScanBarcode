@@ -779,6 +779,7 @@ print("processResult")
                         if let result = infer.decodedResult {
                             if !batchedInternces.contains(result) {
                                 batchedInternces.append(result)
+                                SFManager.shared.playBeep(forCode: .normal)
                             }
                             sortedInternces.append(infer)
                         }
